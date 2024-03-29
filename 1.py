@@ -1,4 +1,4 @@
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry","Mango"]
 x, y, z = fruits
 print(x)
 print(y)
