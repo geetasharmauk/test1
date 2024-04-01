@@ -1,0 +1,22 @@
+def age (Ram,Rahul, Shivani):
+    if Ram>=Rahul and Ram>=Shivani:
+        print ("Ram is eldest")
+    else:
+        print ("Ram is not eldest")
+
+age (15,5,10)
+
+
+
+
+#print ("Age of Ram:")
+#Age of Ram = input()
+#print ("Age of Rahul:")
+#Age of Rahul = input()
+#print ("Age of Shivani:")
+#Age of Shivani = input()
+
+#if Age of Ram>=Age of Rahul and age of Ram>= age of Shivani:
+   # print("Ram is oldest") 
+#else:
+    #print ("Ram is not eldest")
