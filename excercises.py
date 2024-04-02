@@ -1,12 +1,14 @@
 #bonus
 
-def salary(year_of_service):
+def salary(year_of_service, bns):
+    sal=5000
     if year_of_service >= 5:
-        print ("bonus is 5")
+        bonus=sal+(sal*bns)/100
+        print ("bonus is ",bonus)
     else:
-        print ("bonus is 0")
+        print ("bonus is ",sal)
 
-#salary(4) 
+#salary(5,10) 
 
 
 # greatest integer
@@ -28,20 +30,23 @@ def cost(purchase_quantity):
 
 #cost(15)
 
-#Rules of grading
-        def result(marks):
-            if marks>=80:
-                print("grade is A")
-            elif marks>=60:
-                print("grade is B")
-            elif marks>=50:
-                print("grade is C")
-            elif marks>=40:
-                print("grade is D")
-            else:
-                print("grade is E")
+#Rules of grading 
+def result(marks,atd):
+    if marks>=80:
+        if atd>90:
+            print("grade is A with honours")
+        else:
+            print("grade is A")
+    elif marks>=60:
+        print("grade is B")
+    elif marks>=50:
+        print("grade is C")
+    elif marks>=40:
+        print("grade is D")
+    else:
+        print("grade is E")
 
-#marks(90)
+#result(90,80)
 
 
 #attendence
@@ -54,13 +59,13 @@ def attendence(noa,noh):
 #attendence(40,50)
        
 #Leap year
-    def leapyear(year):
-        if year % 4 == 0:
-            print("Year is a leap year")
-        else:
-            print("Not a leap year")
+def leapyear(year):
+    if year % 4 == 0:
+        print("Year is a leap year")
+    else:
+        print("Not a leap year")
 
-    #leapyear(2000) 
+#leapyear(2000) 
 
 #odd even number
 def type(num):
@@ -72,9 +77,9 @@ def type(num):
 #type(21)
 
 #Simple interest
-        def SI(P,R,T):
-            Simple_interest=(P*R*T)/100
-            print ("Simple_interest:",Simple_interest)
+def SI(P,R,T):
+    Simple_interest=(P*R*T)/100
+    print ("Simple_interest:",Simple_interest)
 
 P=200
 R=5
